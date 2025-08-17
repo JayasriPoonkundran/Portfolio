@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Portfolio</title>
+
+  <!-- Smooth scroll + safe offset if nav is fixed -->
+  <style>
+    html { scroll-behavior: smooth; }
+    section { scroll-margin-top: 80px; } /* adjust if your navbar height differs */
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="left">
+    <a href="#home">Home</a>
+  </div>
+  <div class="right">
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+     <a href="#internship">Internship</a>
+   <a href="#certifications">Certificate</a>
+    <a href="#achievements">Achivements</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section id="home" class="about container">
+  <div class="text">
+    <h1>Hello, I’m <span>Jayasri Poonkundran</span></h1>
+    <p>
+      I am Jayasri P, a final-year Computer Science and Engineering student at Government College of Engineering, Erode. 
+      I am passionate about building efficient and user-friendly web applications, with a keen interest in full-stack development. 
+      I have hands-on experience in HTML, CSS, JavaScript, Python, C, and Java, and I am eager to apply my skills to real-world projects.
+    </p>
+    <p>
+      I enjoy solving problems, learning new technologies, and working in collaborative environments. My academic projects include building systems like a 
+      Meeting Itinerary Planner which have strengthened my skills in both frontend and backend development.
+    </p>
+    <p>
+      My career goal is to become a skilled full-stack developer and contribute to impactful, innovative projects.
+    </p>
+    <a href="Jayasri_P_Resume.pdf" class="btn">Resume</a>
+  </div>
+  <div class="pic">
+    <img src="Images/profile.jpeg" alt="Jayasri Poonkundran">
+  </div>
+</section>
+
+<section id="skills" class="skills container">
+  <h2>Technical Skills</h2>
+
+  <!-- Programming Languages -->
+  <div class="skill-category">
+    <h3>Programming Languages</h3>
+    <div class="skill-list">
+      <div class="skill-box">
+        <img src="icons/java.png" alt="Java Logo">
+        <span>Java</span>
+      </div>
+      <div class="skill-box">
+        <img src="icons/sql.png" alt="SQL Logo">
+        <span>SQL</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Web Technologies -->
+  <div class="skill-category">
+    <h3>Web Technologies</h3>
+    <div class="skill-list">
+      <div class="skill-box">
+        <img src="icons/html.png" alt="HTML Logo">
+        <span>HTML</span>
+      </div>
+      <div class="skill-box">
+        <img src="icons/css.png" alt="CSS Logo">
+        <span>CSS</span>
+      </div>
+      <div class="skill-box">
+        <img src="icons/js.png" alt="JavaScript Logo">
+        <span>JavaScript</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Frameworks -->
+  <div class="skill-category" id="skill-category">
+    <h3>Frameworks</h3>
+    <div class="skill-list">
+      <div class="skill-box">
+        <img src="icons/springboot.png" alt="Spring Boot Logo">
+        <span>Spring Boot</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tools -->
+  <div class="skill-category">
+    <h3>Tools</h3>
+    <div class="skill-list">
+      <div class="skill-box">
+        <img src="icons/docker.png" alt="Docker Logo">
+        <span>Docker</span>
+      </div>
+      <div class="skill-box">
+        <img src="icons/github.png" alt="GitHub Logo">
+        <span>GitHub</span>
+      </div>
+      <div class="skill-box">
+        <img src="icons/vscode.png" alt="VS Code Logo">
+        <span>VS Code</span>
+      </div>
+      <div class="skill-box">
+        <img src="icons/ecclipse.png" alt="Eclipse Logo">
+        <span>Eclipse</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Databases -->
+  <div class="skill-category">
+    <h3>Databases</h3>
+    <div class="skill-list">
+      <div class="skill-box">
+        <img src="icons/mysql.png" alt="MySQL Logo">
+        <span>MySQL</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Soft Skills -->
+  <h2>Soft Skills</h2>
+  <div class="skill-category">
+    <div class="skill-list">
+      <div class="skill-box">
+        <img src="icons/communication.png" alt="Communication Logo">
+        <span>Communication</span>
+      </div>
+      <div class="skill-box">
+        <img src="icons/decision.png" alt="Decision Making Logo">
+        <span>Decision Making</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------------------------------ Projects ---------------------------------------------------------------------------->
+<section id="projects" class="projects container">
+  <h2>Projects</h2>
+  <div class="project-list">
+
+    <!-- Project 1 -->
+    <div class="project-box">
+      <div>
+        <h3>Book Store Application</h3>
+        <p class="tech-stack">Java | Spring Boot | JSP | MySQL | HTML | CSS <span class="date">Jun 2025</span></p>
+        <p>Built a Book Store web app using JSP and Spring Boot with features like user registration, book browsing, and admin inventory control. Integrated MySQL using Spring Data JPA for seamless data management.</p>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-box">
+      <div>
+        <h3>Meeting Itinerary Planner</h3>
+        <p class="tech-stack">Java | Spring Boot | JSP | MySQL | HTML | CSS <span class="date">July 2025</span></p>
+        <p>Developed a Meeting Itinerary Planner using JSP and Spring Boot to manage meeting schedules with participant details, integrating MySQL and Spring Data JPA for efficient data handling.</p>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-box">
+      <div>
+        <h3>Fashion Store Website</h3>
+        <p class="tech-stack">HTML | CSS | JavaScript <span class="date">May 2025</span></p>
+        <p>Developed a multi-page fashion store website with Home, Services, Purchase, and Cart sections using HTML and CSS. Focused on responsive design and deployed it live on Netlify for public access.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!------------------------------------------ Certifications ------------------------------------------------->
+<section id="certifications" class="certifications container">
+  <h2>Certifications</h2>
+  <div class="certification-list">
+
+    <!-- Certification 1 -->
+    <div class="certification-box">
+      <img src="icons/nptel.png" alt="NPTEL Logo">
+      <div>
+        <h3>NPTEL – Programming in Java</h3>
+        <p>Completed structured courses covering programming fundamentals, logic building, and problem-solving, with hands-on practice through coding assignments and assessments.</p>
+      </div>
+    </div>
+
+    <!-- Certification 2 -->
+    <div class="certification-box">
+      <img src="icons/coursera.png" alt="Coursera Logo">
+      <div>
+        <h3>Coursera – Introduction to Front-End Development</h3>
+        <p>Acquired foundational knowledge of front-end technologies, including HTML, CSS, and JavaScript. Developed practical skills in building user interfaces and designing structured, styled web pages.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Internship Section -->
+<section class="internship container" id="internship">
+    <h2>Internship</h2>
+
+    <div class="internship-box">
+        <div class="internship-header">
+            <img src="icons/incrix.png" alt="INCRIX Techlutions LLP Logo">
+            <div>
+                <h3>Full Stack Developer Intern</h3>
+                <p class="company">
+                    INCRIX Techlutions LLP 
+                    <span class="date">Jun 2025 – Aug 2025</span>
+                </p>
+            </div>
+        </div>
+
+        <ul>
+            <li>Worked on full-stack web development using <strong>Java, Spring Boot, JSP, MySQL</strong>.</li>
+            <li>Built and optimized responsive UI with <strong>HTML, CSS, JavaScript</strong>.</li>
+            <li>Integrated backend APIs and improved database queries for better performance.</li>
+            <li>Gained hands-on experience in deploying and debugging web applications.</li>
+        </ul>
+
+        <a href="certificate.pdf" target="_blank" class="btn">View Certificate</a>
+    </div>
+</section>
+
+
+<!------------------------------------------ Achivements ---------------------------------------------------------------------------->
+<!-- Achievements Section -->
+<!-- Achievements Section -->
+<section id="achievements" class="achievements container">
+    <h2>Achievements</h2>
+
+    <!-- Hackathon -->
+    <div class="achievement-box">
+        <h3>Participated in <span>Nan Mudhalvan Hackathon</span></h3>
+        <p>
+            I successfully completed <strong>two rounds</strong> and was selected for the 
+            <strong>final round</strong>.
+        </p>
+        <ul>
+            <li>Round 1: Quiz Competition ✅</li>
+            <li>Round 2: PPT Presentation ✅</li>
+        </ul>
+        <p>
+            For the second round, I proposed an innovative solution and was selected for the 
+            <strong>third round</strong>. My project was 
+            <strong>AI Multilingual Translator</strong>, which creates a collaborative 
+            environment by enabling real-time translation across multiple languages.
+        </p>
+
+        <!-- Logos -->
+        <div class="achievement-logos">
+            <img src="icons/nanmudhalvan.png" alt="Nan Mudhalvan Logo">
+            <img src="icons/guvi.png" alt="Guvi Logo">
+        </div>
+    </div>
+
+    
+</section>
+
+
+
+
+<!-----------------------------------------------  Education ----------------------------------------------------------------------------------->
+<section id="education" class="education container">
+  <h2>Education</h2>
+  <div class="edu-list">
+
+    <!-- College -->
+    <div class="edu-box">
+      <h3>Government College of Engineering, Erode</h3>
+      <p class="degree">B.E in Computer Science</p>
+      <p class="details">CGPA: <strong>8.72</strong> (Till 5th Semester)</p>
+    </div>
+
+    <!-- 12th -->
+    <div class="edu-box">
+      <h3>Sri P. Muthaiyar Higher Secondary School</h3>
+      <p class="degree">12th Standard</p>
+      <p class="details">Percentage: <strong>89%</strong></p>
+    </div>
+
+    <!-- 10th -->
+    <div class="edu-box">
+      <h3>Sri P. Muthaiyar Higher Secondary School</h3>
+      <p class="degree">10th Standard</p>
+      <p class="details">Percentage: <strong>93%</strong></p>
+    </div>
+
+  </div>
+</section>
+
+<!---------------------------------------------------- Contact Me ---------------------------------------------------------------------->
+<section id="contact" class="contact container">
+  <h2>Contact Me</h2>
+  <div class="contact-list">
+
+    <!-- Email -->
+    <div class="contact-box">
+      <img src="icons/email.png" alt="Email Icon">
+      <a href="mailto:jjayasri737@gmail.com">jjayasri737@gmail.com</a>
+    </div>
+
+    <!-- Phone -->
+    <div class="contact-box">
+      <img src="icons/phone.png" alt="Phone Icon">
+      <a href="tel:+9123592267">+91 9123592267</a>
+    </div>
+
+    <!-- Location -->
+    <div class="contact-box">
+      <img src="icons/location.png" alt="Location Icon">
+      <span>Erode, Tamil Nadu, India</span>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="contact-box">
+      <img src="icons/linkedin.png" alt="LinkedIn Icon">
+      <a href="https://www.linkedin.com/in/jayasri-poonkundran-3143032b5/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+    </div>
+
+    <!-- GitHub -->
+    <div class="contact-box">
+      <img src="icons/github.png" alt="GitHub Icon">
+      <a href="https://github.com/JayasriPoonkundran" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
